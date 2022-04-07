@@ -9,7 +9,6 @@ browser = webdriver.Chrome(executable_path='YOURPATH' , options=option)
 
 browser.get("http://1.1.1.2/")
 
-# Use the following snippets to get elements by their XPath
 id = browser.find_elements_by_xpath("/html/body/div[1]/div/div/div[1]/div/form/div[1]/input")
 password = browser.find_elements_by_xpath("/html/body/div[1]/div/div/div[1]/div/form/div[2]/input")
 browser.execute_script("arguments[0].click();", browser.find_element(By.ID,"tnc"))
