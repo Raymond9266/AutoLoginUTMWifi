@@ -1,5 +1,6 @@
 # Auto Login UTM Wifi
 Run this code will automatically login UTM Wifi without having to manually type your id and password everytime.
+Works on Chrome only.
 
 ---
 
@@ -17,10 +18,12 @@ pip3 install selenium
 
 ## Step by Step
 1. Download this repository 
-2. Download and run [chromedriver](https://chromedriver.chromium.org/downloads)
-3. Replace the details in main.py
-4. Run the program
+2. Install selenium by using cmd 
+```sh
+pip3 install selenium
+```
+3. Download and run [chromedriver](https://chromedriver.chromium.org/downloads)
+4. Replace the details in main.py
+5. Run the program
 
-## Contact
-- [@raymond9266](https://t.me/raymond9266)
 ---
