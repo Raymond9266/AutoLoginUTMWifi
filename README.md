@@ -16,7 +16,7 @@ pip3 install selenium
 
 ---
 
-## Step by Step
+## Installation Guide
 1. Download this repository 
 2. Install selenium by using cmd 
 ```sh
