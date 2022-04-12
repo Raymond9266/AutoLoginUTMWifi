@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 import time
 
 opt = webdriver.ChromeOptions()
-option.add_argument("-incognito")
+opt.add_argument("-incognito")
 ser = Service("YOUR_PATH") #Example: C:\\Users\ACER\Downloads\chromedriver.exe
 browser = webdriver.Chrome(service=ser , options=opt)
 
