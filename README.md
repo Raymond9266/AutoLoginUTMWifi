@@ -10,9 +10,9 @@ pip3 install selenium
 ```
 
 **Required (Change at main.py) :**
-- `YOURPATH` Change the path for chromedriver.exe to your destination. _For example: /Users/ACER/Downloads/chromedriver.exe_
-- `YOURUTMID` Replace with your UTM ID
-- `YOURPASSWORD` Replace with your login password
+- `YOUR_PATH` Change the path for chromedriver.exe to your destination. _For example: C:\\Users\ACER\Downloads\chromedriver.exe
+- `YOUR_UTMID` Replace with your UTM ID
+- `YOUR_PASSWORD` Replace with your login password
 
 ---
 
