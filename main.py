@@ -3,10 +3,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
 
-option = webdriver.ChromeOptions()
+opt = webdriver.ChromeOptions()
 option.add_argument("-incognito")
 ser = Service("YOUR_PATH") #Example: C:\\Users\ACER\Downloads\chromedriver.exe
-browser = webdriver.Chrome(service=ser , options=option)
+browser = webdriver.Chrome(service=ser , options=opt)
 
 browser.get("http://1.1.1.2/")
 
