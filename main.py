@@ -10,7 +10,6 @@ browser = webdriver.Chrome(service=ser , options=option)
 
 browser.get("http://1.1.1.2/")
 
-# Use the following snippets to get elements by their XPath
 try:
     name = browser.find_elements(by=By.XPATH, value="/html/body/div[1]/div/div/div[1]/div/form/div[1]/input")
     password = browser.find_elements(by=By.XPATH,value="/html/body/div[1]/div/div/div[1]/div/form/div[2]/input")
@@ -23,5 +22,6 @@ try:
 
     time.sleep(2)
     browser.close()
+    
 except:
     print("Error! Please make sure you are not logged in!")
